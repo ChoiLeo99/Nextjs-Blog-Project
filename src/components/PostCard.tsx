@@ -6,7 +6,7 @@ type Props = { post: Post }
 export default function PostCard({
     post: { title, description, date, category, path },
 }: Props) {
-    return <Link href={'/posts/${path'}>
+    return <Link href={`/posts/${path}`} >
         <article className="rounded-md overflow-hidden shadow-md hover:shadow-xl">
             <Image className="w-full" src={`/images/posts/${path}.png`}
                 alt={title}
@@ -20,5 +20,5 @@ export default function PostCard({
                 <span className="text-sm rounded-lg bg-green-100 px-2 my-2">{category}</span>
             </div>
         </article>
-    </Link>
+    </ Link>
 }

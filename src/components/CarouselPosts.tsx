@@ -1,6 +1,5 @@
 import { getNonFeaturedPosts } from "@/service/posts"
 import PostCard from "./PostCard"
-import Carousel from "react-multi-carousel";
 import MultiCarousel from "./MultiCarousel";
 
 export default async function CarouselPosts() {

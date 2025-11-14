@@ -1,4 +1,3 @@
-import React from 'react'
 import profileImage from '../../public/Images/LeoImage.png'
 import Image from 'next/image'
 import Link from 'next/link'
